@@ -3,33 +3,97 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		302049BC2FABC7D000A1DCA4 /* Color+Ember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049822FABC7D000A1DCA4 /* Color+Ember.swift */; };
+		302049BD2FABC7D000A1DCA4 /* EmberStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049842FABC7D000A1DCA4 /* EmberStat.swift */; };
+		302049BE2FABC7D000A1DCA4 /* EmotionalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049852FABC7D000A1DCA4 /* EmotionalEntry.swift */; };
+		302049BF2FABC7D000A1DCA4 /* EmotionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049862FABC7D000A1DCA4 /* EmotionModels.swift */; };
+		302049C02FABC7D000A1DCA4 /* Insight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049872FABC7D000A1DCA4 /* Insight.swift */; };
+		302049C12FABC7D000A1DCA4 /* Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049882FABC7D000A1DCA4 /* Trigger.swift */; };
+		302049C22FABC7D000A1DCA4 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3020498A2FABC7D000A1DCA4 /* AppRouter.swift */; };
+		302049C32FABC7D000A1DCA4 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3020498B2FABC7D000A1DCA4 /* PersistenceManager.swift */; };
+		302049C42FABC7D000A1DCA4 /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3020498C2FABC7D000A1DCA4 /* PrivacyWebView.swift */; };
+		302049C52FABC7D000A1DCA4 /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3020498D2FABC7D000A1DCA4 /* SaveService.swift */; };
+		302049C62FABC7D000A1DCA4 /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3020498E2FABC7D000A1DCA4 /* StartMainView.swift */; };
+		302049C72FABC7D000A1DCA4 /* AppLegalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049902FABC7D000A1DCA4 /* AppLegalLink.swift */; };
+		302049C82FABC7D000A1DCA4 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049912FABC7D000A1DCA4 /* DateFormatting.swift */; };
+		302049C92FABC7D000A1DCA4 /* EmberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049932FABC7D000A1DCA4 /* EmberViewModel.swift */; };
+		302049CA2FABC7D000A1DCA4 /* EmberChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049952FABC7D000A1DCA4 /* EmberChrome.swift */; };
+		302049CB2FABC7D000A1DCA4 /* EntryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049962FABC7D000A1DCA4 /* EntryCard.swift */; };
+		302049CC2FABC7D000A1DCA4 /* InsightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049972FABC7D000A1DCA4 /* InsightCard.swift */; };
+		302049CD2FABC7D000A1DCA4 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049982FABC7D000A1DCA4 /* StatCard.swift */; };
+		302049CE2FABC7D000A1DCA4 /* TriggerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049992FABC7D000A1DCA4 /* TriggerRowView.swift */; };
+		302049CF2FABC7D000A1DCA4 /* AddEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3020499B2FABC7D000A1DCA4 /* AddEntryView.swift */; };
+		302049D02FABC7D000A1DCA4 /* EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3020499C2FABC7D000A1DCA4 /* EntryDetailView.swift */; };
+		302049D12FABC7D000A1DCA4 /* EmberFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3020499E2FABC7D000A1DCA4 /* EmberFeedView.swift */; };
+		302049D22FABC7D000A1DCA4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049A02FABC7D000A1DCA4 /* HomeView.swift */; };
+		302049D32FABC7D000A1DCA4 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049A22FABC7D000A1DCA4 /* InsightsView.swift */; };
+		302049D42FABC7D000A1DCA4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049A42FABC7D000A1DCA4 /* OnboardingView.swift */; };
+		302049D52FABC7D000A1DCA4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049A62FABC7D000A1DCA4 /* SettingsView.swift */; };
+		302049D62FABC7D000A1DCA4 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049A82FABC7D000A1DCA4 /* StatsView.swift */; };
+		302049D72FABC7D000A1DCA4 /* AddTriggerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049AA2FABC7D000A1DCA4 /* AddTriggerView.swift */; };
+		302049D82FABC7D000A1DCA4 /* EditTriggerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049AB2FABC7D000A1DCA4 /* EditTriggerView.swift */; };
+		302049D92FABC7D000A1DCA4 /* LinkedEntryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049AC2FABC7D000A1DCA4 /* LinkedEntryRowView.swift */; };
+		302049DA2FABC7D000A1DCA4 /* TriggerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049AD2FABC7D000A1DCA4 /* TriggerDetailView.swift */; };
+		302049DB2FABC7D000A1DCA4 /* TriggersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049AE2FABC7D000A1DCA4 /* TriggersView.swift */; };
+		302049DC2FABC7D000A1DCA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049B12FABC7D000A1DCA4 /* AppDelegate.swift */; };
+		302049DD2FABC7D000A1DCA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049B32FABC7D000A1DCA4 /* ContentView.swift */; };
+		302049DE2FABC7D000A1DCA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049B92FABC7D000A1DCA4 /* SceneDelegate.swift */; };
+		302049DF2FABC7D000A1DCA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302049BA2FABC7D000A1DCA4 /* ViewController.swift */; };
+		302049E02FABC7D000A1DCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302049B22FABC7D000A1DCA4 /* Assets.xcassets */; };
+		302049E22FABC7D000A1DCA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302049B62FABC7D000A1DCA4 /* LaunchScreen.storyboard */; };
+		302049E32FABC7D000A1DCA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302049B82FABC7D000A1DCA4 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		302049822FABC7D000A1DCA4 /* Color+Ember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ember.swift"; sourceTree = "<group>"; };
+		302049842FABC7D000A1DCA4 /* EmberStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmberStat.swift; sourceTree = "<group>"; };
+		302049852FABC7D000A1DCA4 /* EmotionalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalEntry.swift; sourceTree = "<group>"; };
+		302049862FABC7D000A1DCA4 /* EmotionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionModels.swift; sourceTree = "<group>"; };
+		302049872FABC7D000A1DCA4 /* Insight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insight.swift; sourceTree = "<group>"; };
+		302049882FABC7D000A1DCA4 /* Trigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
+		3020498A2FABC7D000A1DCA4 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		3020498B2FABC7D000A1DCA4 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		3020498C2FABC7D000A1DCA4 /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		3020498D2FABC7D000A1DCA4 /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		3020498E2FABC7D000A1DCA4 /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
+		302049902FABC7D000A1DCA4 /* AppLegalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLegalLink.swift; sourceTree = "<group>"; };
+		302049912FABC7D000A1DCA4 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		302049932FABC7D000A1DCA4 /* EmberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmberViewModel.swift; sourceTree = "<group>"; };
+		302049952FABC7D000A1DCA4 /* EmberChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmberChrome.swift; sourceTree = "<group>"; };
+		302049962FABC7D000A1DCA4 /* EntryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCard.swift; sourceTree = "<group>"; };
+		302049972FABC7D000A1DCA4 /* InsightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightCard.swift; sourceTree = "<group>"; };
+		302049982FABC7D000A1DCA4 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		302049992FABC7D000A1DCA4 /* TriggerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerRowView.swift; sourceTree = "<group>"; };
+		3020499B2FABC7D000A1DCA4 /* AddEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryView.swift; sourceTree = "<group>"; };
+		3020499C2FABC7D000A1DCA4 /* EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailView.swift; sourceTree = "<group>"; };
+		3020499E2FABC7D000A1DCA4 /* EmberFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmberFeedView.swift; sourceTree = "<group>"; };
+		302049A02FABC7D000A1DCA4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		302049A22FABC7D000A1DCA4 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		302049A42FABC7D000A1DCA4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		302049A62FABC7D000A1DCA4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		302049A82FABC7D000A1DCA4 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		302049AA2FABC7D000A1DCA4 /* AddTriggerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTriggerView.swift; sourceTree = "<group>"; };
+		302049AB2FABC7D000A1DCA4 /* EditTriggerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTriggerView.swift; sourceTree = "<group>"; };
+		302049AC2FABC7D000A1DCA4 /* LinkedEntryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedEntryRowView.swift; sourceTree = "<group>"; };
+		302049AD2FABC7D000A1DCA4 /* TriggerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerDetailView.swift; sourceTree = "<group>"; };
+		302049AE2FABC7D000A1DCA4 /* TriggersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggersView.swift; sourceTree = "<group>"; };
+		302049B12FABC7D000A1DCA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		302049B22FABC7D000A1DCA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		302049B32FABC7D000A1DCA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		302049B42FABC7D000A1DCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302049B52FABC7D000A1DCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		302049B72FABC7D000A1DCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		302049B92FABC7D000A1DCA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		302049BA2FABC7D000A1DCA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3063E0272FA767980071A61B /* 149Ember.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 149Ember.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BB9DB6AE7076B46755ED58 /* Pods-149Ember.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-149Ember.release.xcconfig"; path = "Target Support Files/Pods-149Ember/Pods-149Ember.release.xcconfig"; sourceTree = "<group>"; };
+		D5B3F1C1195353E71EA60BFC /* Pods-149Ember.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-149Ember.debug.xcconfig"; path = "Target Support Files/Pods-149Ember/Pods-149Ember.debug.xcconfig"; sourceTree = "<group>"; };
+		DF901ABB14BF0999E92F82B3 /* Pods_149Ember.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_149Ember.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3063E0392FA767980071A61B /* Exceptions for "149Ember" folder in "149Ember" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 3063E0262FA767980071A61B /* 149Ember */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3063E0292FA767980071A61B /* 149Ember */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				3063E0392FA767980071A61B /* Exceptions for "149Ember" folder in "149Ember" target */,
-			);
-			path = 149Ember;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3063E0242FA767980071A61B /* Frameworks */ = {
@@ -42,11 +106,180 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		302049832FABC7D000A1DCA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				302049822FABC7D000A1DCA4 /* Color+Ember.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		302049892FABC7D000A1DCA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				302049842FABC7D000A1DCA4 /* EmberStat.swift */,
+				302049852FABC7D000A1DCA4 /* EmotionalEntry.swift */,
+				302049862FABC7D000A1DCA4 /* EmotionModels.swift */,
+				302049872FABC7D000A1DCA4 /* Insight.swift */,
+				302049882FABC7D000A1DCA4 /* Trigger.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3020498F2FABC7D000A1DCA4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3020498A2FABC7D000A1DCA4 /* AppRouter.swift */,
+				3020498B2FABC7D000A1DCA4 /* PersistenceManager.swift */,
+				3020498C2FABC7D000A1DCA4 /* PrivacyWebView.swift */,
+				3020498D2FABC7D000A1DCA4 /* SaveService.swift */,
+				3020498E2FABC7D000A1DCA4 /* StartMainView.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		302049922FABC7D000A1DCA4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				302049902FABC7D000A1DCA4 /* AppLegalLink.swift */,
+				302049912FABC7D000A1DCA4 /* DateFormatting.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		302049942FABC7D000A1DCA4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				302049932FABC7D000A1DCA4 /* EmberViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3020499A2FABC7D000A1DCA4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				302049952FABC7D000A1DCA4 /* EmberChrome.swift */,
+				302049962FABC7D000A1DCA4 /* EntryCard.swift */,
+				302049972FABC7D000A1DCA4 /* InsightCard.swift */,
+				302049982FABC7D000A1DCA4 /* StatCard.swift */,
+				302049992FABC7D000A1DCA4 /* TriggerRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3020499D2FABC7D000A1DCA4 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				3020499B2FABC7D000A1DCA4 /* AddEntryView.swift */,
+				3020499C2FABC7D000A1DCA4 /* EntryDetailView.swift */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		3020499F2FABC7D000A1DCA4 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				3020499E2FABC7D000A1DCA4 /* EmberFeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		302049A12FABC7D000A1DCA4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				302049A02FABC7D000A1DCA4 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		302049A32FABC7D000A1DCA4 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				302049A22FABC7D000A1DCA4 /* InsightsView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		302049A52FABC7D000A1DCA4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				302049A42FABC7D000A1DCA4 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		302049A72FABC7D000A1DCA4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				302049A62FABC7D000A1DCA4 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		302049A92FABC7D000A1DCA4 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				302049A82FABC7D000A1DCA4 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		302049AF2FABC7D000A1DCA4 /* Triggers */ = {
+			isa = PBXGroup;
+			children = (
+				302049AA2FABC7D000A1DCA4 /* AddTriggerView.swift */,
+				302049AB2FABC7D000A1DCA4 /* EditTriggerView.swift */,
+				302049AC2FABC7D000A1DCA4 /* LinkedEntryRowView.swift */,
+				302049AD2FABC7D000A1DCA4 /* TriggerDetailView.swift */,
+				302049AE2FABC7D000A1DCA4 /* TriggersView.swift */,
+			);
+			path = Triggers;
+			sourceTree = "<group>";
+		};
+		302049B02FABC7D000A1DCA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3020499A2FABC7D000A1DCA4 /* Components */,
+				3020499D2FABC7D000A1DCA4 /* Entry */,
+				3020499F2FABC7D000A1DCA4 /* Feed */,
+				302049A12FABC7D000A1DCA4 /* Home */,
+				302049A32FABC7D000A1DCA4 /* Insights */,
+				302049A52FABC7D000A1DCA4 /* Onboarding */,
+				302049A72FABC7D000A1DCA4 /* Settings */,
+				302049A92FABC7D000A1DCA4 /* Stats */,
+				302049AF2FABC7D000A1DCA4 /* Triggers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		302049BB2FABC7D000A1DCA4 /* 149Ember */ = {
+			isa = PBXGroup;
+			children = (
+				302049832FABC7D000A1DCA4 /* Extensions */,
+				302049892FABC7D000A1DCA4 /* Models */,
+				3020498F2FABC7D000A1DCA4 /* Router */,
+				302049922FABC7D000A1DCA4 /* Utilities */,
+				302049942FABC7D000A1DCA4 /* ViewModels */,
+				302049B02FABC7D000A1DCA4 /* Views */,
+				302049B12FABC7D000A1DCA4 /* AppDelegate.swift */,
+				302049B22FABC7D000A1DCA4 /* Assets.xcassets */,
+				302049B32FABC7D000A1DCA4 /* ContentView.swift */,
+				302049B42FABC7D000A1DCA4 /* Info.plist */,
+				302049B62FABC7D000A1DCA4 /* LaunchScreen.storyboard */,
+				302049B82FABC7D000A1DCA4 /* Main.storyboard */,
+				302049B92FABC7D000A1DCA4 /* SceneDelegate.swift */,
+				302049BA2FABC7D000A1DCA4 /* ViewController.swift */,
+			);
+			path = 149Ember;
+			sourceTree = "<group>";
+		};
 		3063E01E2FA767980071A61B = {
 			isa = PBXGroup;
 			children = (
-				3063E0292FA767980071A61B /* 149Ember */,
+				302049BB2FABC7D000A1DCA4 /* 149Ember */,
 				3063E0282FA767980071A61B /* Products */,
+				62E5093CABE4F8E57B6F573F /* Pods */,
+				D8ADB482EA8595D6FCBE14AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +291,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		62E5093CABE4F8E57B6F573F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3F1C1195353E71EA60BFC /* Pods-149Ember.debug.xcconfig */,
+				C7BB9DB6AE7076B46755ED58 /* Pods-149Ember.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8ADB482EA8595D6FCBE14AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF901ABB14BF0999E92F82B3 /* Pods_149Ember.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +315,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3063E03A2FA767980071A61B /* Build configuration list for PBXNativeTarget "149Ember" */;
 			buildPhases = (
+				A0E58505DB162462D89B9E8E /* [CP] Check Pods Manifest.lock */,
 				3063E0232FA767980071A61B /* Sources */,
 				3063E0242FA767980071A61B /* Frameworks */,
 				3063E0252FA767980071A61B /* Resources */,
@@ -73,12 +324,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				3063E0292FA767980071A61B /* 149Ember */,
-			);
 			name = 149Ember;
-			packageProductDependencies = (
-			);
 			productName = 149Ember;
 			productReference = 3063E0272FA767980071A61B /* 149Ember.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +345,7 @@
 				};
 			};
 			buildConfigurationList = 3063E0222FA767980071A61B /* Build configuration list for PBXProject "149Ember" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +353,6 @@
 				Base,
 			);
 			mainGroup = 3063E01E2FA767980071A61B;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 3063E0282FA767980071A61B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +367,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302049E02FABC7D000A1DCA4 /* Assets.xcassets in Resources */,
+				302049E22FABC7D000A1DCA4 /* LaunchScreen.storyboard in Resources */,
+				302049E32FABC7D000A1DCA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0E58505DB162462D89B9E8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-149Ember-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3063E0232FA767980071A61B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302049BC2FABC7D000A1DCA4 /* Color+Ember.swift in Sources */,
+				302049BD2FABC7D000A1DCA4 /* EmberStat.swift in Sources */,
+				302049BE2FABC7D000A1DCA4 /* EmotionalEntry.swift in Sources */,
+				302049BF2FABC7D000A1DCA4 /* EmotionModels.swift in Sources */,
+				302049C02FABC7D000A1DCA4 /* Insight.swift in Sources */,
+				302049C12FABC7D000A1DCA4 /* Trigger.swift in Sources */,
+				302049C22FABC7D000A1DCA4 /* AppRouter.swift in Sources */,
+				302049C32FABC7D000A1DCA4 /* PersistenceManager.swift in Sources */,
+				302049C42FABC7D000A1DCA4 /* PrivacyWebView.swift in Sources */,
+				302049C52FABC7D000A1DCA4 /* SaveService.swift in Sources */,
+				302049C62FABC7D000A1DCA4 /* StartMainView.swift in Sources */,
+				302049C72FABC7D000A1DCA4 /* AppLegalLink.swift in Sources */,
+				302049C82FABC7D000A1DCA4 /* DateFormatting.swift in Sources */,
+				302049C92FABC7D000A1DCA4 /* EmberViewModel.swift in Sources */,
+				302049CA2FABC7D000A1DCA4 /* EmberChrome.swift in Sources */,
+				302049CB2FABC7D000A1DCA4 /* EntryCard.swift in Sources */,
+				302049CC2FABC7D000A1DCA4 /* InsightCard.swift in Sources */,
+				302049CD2FABC7D000A1DCA4 /* StatCard.swift in Sources */,
+				302049CE2FABC7D000A1DCA4 /* TriggerRowView.swift in Sources */,
+				302049CF2FABC7D000A1DCA4 /* AddEntryView.swift in Sources */,
+				302049D02FABC7D000A1DCA4 /* EntryDetailView.swift in Sources */,
+				302049D12FABC7D000A1DCA4 /* EmberFeedView.swift in Sources */,
+				302049D22FABC7D000A1DCA4 /* HomeView.swift in Sources */,
+				302049D32FABC7D000A1DCA4 /* InsightsView.swift in Sources */,
+				302049D42FABC7D000A1DCA4 /* OnboardingView.swift in Sources */,
+				302049D52FABC7D000A1DCA4 /* SettingsView.swift in Sources */,
+				302049D62FABC7D000A1DCA4 /* StatsView.swift in Sources */,
+				302049D72FABC7D000A1DCA4 /* AddTriggerView.swift in Sources */,
+				302049D82FABC7D000A1DCA4 /* EditTriggerView.swift in Sources */,
+				302049D92FABC7D000A1DCA4 /* LinkedEntryRowView.swift in Sources */,
+				302049DA2FABC7D000A1DCA4 /* TriggerDetailView.swift in Sources */,
+				302049DB2FABC7D000A1DCA4 /* TriggersView.swift in Sources */,
+				302049DC2FABC7D000A1DCA4 /* AppDelegate.swift in Sources */,
+				302049DD2FABC7D000A1DCA4 /* ContentView.swift in Sources */,
+				302049DE2FABC7D000A1DCA4 /* SceneDelegate.swift in Sources */,
+				302049DF2FABC7D000A1DCA4 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		302049B62FABC7D000A1DCA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302049B52FABC7D000A1DCA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		302049B82FABC7D000A1DCA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302049B72FABC7D000A1DCA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		3063E03B2FA767980071A61B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B3F1C1195353E71EA60BFC /* Pods-149Ember.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +476,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 149Ember/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Emo State Tracker";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-49Ember";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sti.3m0st9t3tr5ck3r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3063E03C2FA767980071A61B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7BB9DB6AE7076B46755ED58 /* Pods-149Ember.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +514,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 149Ember/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Emo State Tracker";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-49Ember";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sti.3m0st9t3tr5ck3r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
